@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Rafael" />
+    <meta name="description" content="Criando um site informativo inteiramente em html" />
+    <title>Menu</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Introdução do jogo Grand Theft Auto V (GTA V)</h1>
+        <nav>
+            <a href="index.html">Introdução</a><br>
+            <a href="historia.html">História</a><br>
+            <a href="personagens.html">Personagens</a><br>
+            <a href="musicas.html">Músicas</a><br>
+            <a href="lugares.html">Lugares</a><br>
+            <a href="misterios_historia.html">Mistérios Modo História</a><br>
+            <a href="golpes_historia.html">Golpes do Modo História</a><br>
+            <a href="gta100.html">100% do Modo História</a><br>
+            <a href="gta_online.html">GTA Online</a><br>
+            <a href="misterios_online.html">Mistérios do GTA Online</a><br>
+            <a href="golpes_online.html">Golpes do Online</a><br>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section>
+
+            <h2>Atenção</h2>
+            <p>
+                Primeiramente, antes de avisar, precisamos informar que o jogo contém violência,
+                assassinatos, uso de drogas, nudez, armas pesadas, corrupção, entre outros.
+            </p><br>
+            <p>
+                Como o jogo é para maiores de 18 anos, é necessário que nos informe a sua
+                data de nascimento.
+            </p>
+            <form>
+                <label for="nascimento">Data de nascimento: 📅</label>
+                <input type="date" id="nascimento" name="nascimento" required>
+                <button type="submit">Enviar</button>
+                <hr>
+            </form>
+        </section>
+
+        <h4>Conhece GTA?</h4>
+
+        <label>Já jogou GTA V:</label>
+        <input list="opcao" placeholder="Digite se jogou GTA V ou não">
+        <datalist id="opcao">
+            <option value="Já joguei">
+            <option value="Nunca joguei">
+        </datalist>
+        <p>
+            Se nunca jogou e quer conhecer, nesse site contaremos muita coisa sobre o jogo.
+        </p>
+
+        <p>
+            Se já conhece, me diz de 0 a 10, qual é o seu nível de conhecimento de GTA V.
+        </p>
+        <form>
+            <label for="nivel">Nível de conhecimento(0 a 10):</label>
+            (0 <input type="range" id="nivel" name="nivel" min="0" max="10" value="5"> 10)
+        </form><br>
+
+        <label for="foto">Se já conhece muito sobre o jogo, envie uma imagem do seu personagem favorito:</label>
+        <input type="file" id="foto" name="foto" accept="image/*">
+
+
+        <section>
+
+            <article>
+                <h2>Bem-Vindo ao site sobre GTA V</h2>
+
+                <figure>
+                    <img src="img/gta5.png" alt="Imagem do GTA V" width="400">
+                    <figcaption>GTA V</figcaption>
+                </figure>
+
+                <p>
+                    Nesse site, iremos falar diversas informações sobre o GTA V, como a história,
+                    os personagens, os mistérios, entre outros.
+                </p>
+
+
+
+                <h3>O que é GTA V?</h3>
+
+                <p>
+                    O GTA V é um jogo lançado em setembro de 2013 pela empresa de jogos chamada Rockstar. O jogo conta
+                    a história de 3 criminosos: Trevor, Franklin e Michael. Ele é muito popular e ocupa o segundo
+                    lugar do jogo eletrônico individual mais vendido de todos os tempos.
+                </p>
+                <ul>
+                    <li><b>Nome:</b> Grand Theft Auto V (GTA V)</li>
+                    <li><b>Desenvolvedora:</b> Rockstar North</li>
+                    <li><b>Publicadora:</b> Rockstar Games</li>
+                    <li><b>Lançamento inicial:</b> 17 de setembro de 2013</li>
+                    <li><b>Local da história:</b> Los Santos e Blaine County, lugares fictícios inspirados
+                        principalmente em
+                        Los
+                        Angeles e na Califórnia.</li>
+                    <li><b>Gênero:</b> Ação e aventura em mundo aberto.</li>
+                    <li><b>Modo de jogo:</b> Possui campanha para um jogador e também o GTA Online, que permite jogar
+                        com
+                        outras
+                        pessoas.</li>
+                    <li><b>Personagens principais:</b> Michael, Franklin e Trevor.</li>
+                </ul>
+                <details>
+                    <summary>Sinopse</summary>
+                    <p>
+                        A história acompanha a vida de três criminosos de diferentes gerações em Los Santos: Michael De
+                        Santa, um ladrão de bancos aposentado que vive sob proteção de testemunhas; Franklin Clinton, um
+                        jovem malandro de rua em busca de oportunidades; e Trevor Philips, um psicopata violento e
+                        imprevisível.
+                    </p>
+                </details>
+
+                <h3>Gameplay - Prólogo do GTA V</h3>
+                <figure>
+                    <video src="video/gameplay_prologo.mp4" controls></video>
+                    <figcaption>Minha Gameplay do GTA V</figcaption>
+                </figure>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Site sobre GTA V — Desenvolvido por João Rafael</p>
+        <p>Projeto acadêmico desenvolvido apenas com HTML.</p>
+    </footer>
+
+</body>
+
+</html>
