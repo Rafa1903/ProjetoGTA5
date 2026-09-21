@@ -14,4 +14,4 @@ O site consiste apresentar o jogo Grand Theft Auto V(GTA V) e mostrar diversas i
 8. Gameplay.
 9. Golpes do GTA Online
 
-A principal e a única tecnologia usar foi a da html.
+A principal e a única tecnologia usada foi a da html.
